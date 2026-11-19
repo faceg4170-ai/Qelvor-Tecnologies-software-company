@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Qelvor Technologies</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <a href="index.html" class="brand">
+            <span class="brand-symbol">Q</span>
+            <span>QELVOR <strong>TECHNOLOGIES</strong></span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+            aria-label="Open navigation" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="navigation" id="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="services.html">Services</a>
+            <a href="innovation.html">Innovation</a>
+            <a href="company.html">Company</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="inner-hero contact-hero">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h1>
+            Let's start a<br>
+            <span>conversation.</span>
+        </h1>
+
+        <p>
+            Have a question, project idea or business inquiry?
+            We'd be interested in hearing from you.
+        </p>
+
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section">
+
+        <!-- CONTACT INFORMATION -->
+        <div class="contact-information">
+
+            <p class="section-label">CONTACT INFORMATION</p>
+
+            <h2 class="section-heading">
+                Connect with Qelvor.
+            </h2>
+
+            <p class="contact-description">
+                Whether you're interested in our technology,
+                exploring a collaboration or discussing a project,
+                use the form to reach out.
+            </p>
+
+            <div class="contact-detail">
+                <span class="contact-icon">01</span>
+                <div>
+                    <h3>General Inquiries</h3>
+                    <p>Questions about Qelvor and its projects.</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span class="contact-icon">02</span>
+                <div>
+                    <h3>Product Inquiries</h3>
+                    <p>Questions about THORNE AI and other products.</p>
+                </div>
+            </div>
+
+            <div class="contact-detail">
+                <span class="contact-icon">03</span>
+                <div>
+                    <h3>Business Inquiries</h3>
+                    <p>Project discussions and potential collaborations.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-container">
+
+            <p class="section-label">SEND A MESSAGE</p>
+
+            <h2>Tell us about your inquiry.</h2>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Inquiry Type</label>
+
+                    <select id="subject" name="subject" required>
+                        <option value="">Select inquiry type</option>
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="Product Inquiry">Product Inquiry</option>
+                        <option value="Business Inquiry">Business Inquiry</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="Write your message here..."
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit" class="primary-button">
+                    Send Message →
+                </button>
+
+                <p id="formStatus" class="form-status" aria-live="polite"></p>
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- CLOSING SECTION -->
+    <section class="section contact-closing">
+
+        <p class="section-label">QELVOR TECHNOLOGIES</p>
+
+        <h2>
+            Technology begins<br>
+            with a conversation.
+        </h2>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div>
+                <a href="index.html" class="brand">
+                    <span class="brand-symbol">Q</span>
+                    <span>QELVOR <strong>TECHNOLOGIES</strong></span>
+                </a>
+
+                <p>Exploring technology. Building possibilities.</p>
+            </div>
+
+            <div class="footer-links">
+                <a href="about.html">About</a>
+                <a href="products.html">Products</a>
+                <a href="services.html">Services</a>
+                <a href="company.html">Company</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="year"></span> Qelvor Technologies. All rights reserved.</p>
+            <p>Independent technology venture.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
